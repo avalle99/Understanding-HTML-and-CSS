@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+     
+}
+
+body{
+    font-size: 16px;
+
+}
+
+nav{
+    position: sticky;
+    inset-inline-start: 0;
+    background-color:white ;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 .25rem;
+    margin-inline: 0.25rem;
+    margin-block: 0;
+    line-height: 1.5rem;
+}
+
+main{
+    max-inline-size: clamp(700px, 50%, 900px);
+    padding-inline: 2rem;
+    padding-block: 0;
+    border-inline-start: solid 2px black;
+    border-inline-end: solid 2px black;
+    margin-inline: auto;
+    margin-block: 0;
+}
+
+#aboutme{
+    background-color: black;
+    color: white;
+    display: flow-root;
+}
+
+#testimonials blockquote{
+    border-inline: solid 1px black;
+    border-block: solid 1px black;
+    padding-inline: 0.5rem;
+    padding-block: 0;
+    margin-inline: 0;
+    margin-block: 0.5rem;
+}
+
+
+.resume-fieldset{
+    border-inline: none;
+    border-block: none;
+    padding-inline: 0;
+    padding-block: 0;
+    margin-inline: 0;
+    margin-block: 0;
+}
+
+.resume-fieldset legend{
+    padding-inline: 0;
+    padding-block: 0;
+}
+
+.label-standard{
+    display: block;
+    margin-inline: 0.125rem;
+    margin-block: 0.125rem;
+}
+
+.field{
+    margin-block-end:1.25rem;
+}
+
+.myPicture{
+    /* float: inline-start; */
+    float: left;
+    max-inline-size: 75px;
+    margin-inline-end: 1rem;
+}
+
+
+
+/* z-index testing */
+
+/* nav ul{
+    z-index: 1;
+    background-color: white;
+}
+
+blockquote:first-of-type{
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: white;
+} */
